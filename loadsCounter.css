@@ -1,0 +1,122 @@
+/* максимальна ширина клітинки на випадок багу ерп */
+td {
+  max-width: 500px;
+}
+
+/*backgrond - змінюй значення після # на будь який колір з онлайн палітри*/
+.main-layout__sidenav__content {
+  background-color: #d9ead3;
+}
+/*================================*/
+
+/*відключення дефолтного лічильника*/
+lgt-dispatch-stats-bar.display-flex.m-t-2.m-b-6 {
+  display: none;
+}
+/*================================*/
+
+/*HEADER*/
+div.d-flex.justify-content-between.m-b-2 {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: #fff;
+  padding: 30px 30px 20px 30px;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/*================================*/
+
+/*LOADS COUNTER*/
+.colored__loads__counter {
+  display: flex;
+  margin: 0 250px 0 0;
+}
+.need__to__check {
+  margin: 0 30px 0 0;
+}
+.eta {
+  margin: 0 30px 0 0;
+}
+.on__site {
+  margin: 0 30px 0 0;
+}
+.in__transit {
+  margin: 0 30px 0 0;
+}
+.white__loads {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: gray;
+}
+div.pink__loads {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: palevioletred;
+}
+div.yellow__loads {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: darkkhaki;
+}
+div.green__loads {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: green;
+}
+div.red__loads {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: red;
+}
+div.pink__line {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0px 0 0px;
+}
+div.white__line {
+  text-align: center;
+  margin: 10px 0px 0 0px;
+  font-size: 20px;
+}
+div.yellow__line {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+div.green__line {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+div.red__line {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+div.total {
+  margin: 0 0px 0 30px;
+}
+div.total__loads {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+div.total__line {
+  text-align: center;
+  margin: 10px 0px 0 0px;
+  font-size: 20px;
+}
+/*================================*/
