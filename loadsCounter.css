@@ -29,94 +29,39 @@ div.d-flex.justify-content-between.m-b-2 {
 /*================================*/
 
 /*LOADS COUNTER*/
-.colored__loads__counter {
+.loads-counter {
   display: flex;
-  margin: 0 250px 0 0;
+  margin: 0 0px 0 0;
 }
-.need__to__check {
-  margin: 0 30px 0 0;
+.loads-counter__item--need-to-check .loads-counter__count {
+  color: #959393;
 }
-.eta {
-  margin: 0 30px 0 0;
+.loads-counter__item--eta .loads-counter__count {
+  color: #d87093;
 }
-.on__site {
-  margin: 0 30px 0 0;
+.loads-counter__item--on-site .loads-counter__count {
+  color: #bdb76b;
 }
-.in__transit {
-  margin: 0 30px 0 0;
+.loads-counter__item--in-transit .loads-counter__count {
+  color: #13b613;
 }
-.white__loads {
+.loads-counter__item--no-answer .loads-counter__count {
+  color: #cc2b2b;
+}
+
+.loads-counter__item {
+  margin-right: 30px;
+}
+
+.loads-counter__count {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  margin: 10px 0 0 0;
-  color: gray;
+  margin-top: 10px;
 }
-div.pink__loads {
+
+.loads-counter__label {
   text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 0 0 0;
-  color: palevioletred;
-}
-div.yellow__loads {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 0 0 0;
-  color: darkkhaki;
-}
-div.green__loads {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 0 0 0;
-  color: green;
-}
-div.red__loads {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 0 0 0;
-  color: red;
-}
-div.pink__line {
-  font-size: 20px;
-  text-align: center;
-  margin: 10px 0px 0 0px;
-}
-div.white__line {
-  text-align: center;
-  margin: 10px 0px 0 0px;
+  margin-top: 10px;
   font-size: 20px;
 }
-div.yellow__line {
-  text-align: center;
-  margin: 10px 0 0 0;
-  font-size: 20px;
-}
-div.green__line {
-  text-align: center;
-  margin: 10px 0 0 0;
-  font-size: 20px;
-}
-div.red__line {
-  text-align: center;
-  margin: 10px 0 0 0;
-  font-size: 20px;
-}
-div.total {
-  margin: 0 0px 0 30px;
-}
-div.total__loads {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 0 0 0;
-}
-div.total__line {
-  text-align: center;
-  margin: 10px 0px 0 0px;
-  font-size: 20px;
-}
-/*================================*/
