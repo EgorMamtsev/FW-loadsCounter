@@ -49,7 +49,11 @@ div.d-flex.justify-content-between.m-b-2 {
 }
 
 .loads-counter__item {
-  margin-right: 30px;
+  margin-right: 80px;
+}
+
+.loads-counter__item--total {
+  margin-right: 0;
 }
 
 .loads-counter__count {
@@ -63,3 +67,4 @@ div.d-flex.justify-content-between.m-b-2 {
   margin-top: 10px;
   font-size: 20px;
 }
+/*================================*/
