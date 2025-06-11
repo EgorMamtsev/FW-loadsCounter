@@ -3,19 +3,19 @@ td {
   max-width: 500px;
 }
 
-/*backgrond - змінюй значення після # на будь який колір з онлайн палітри*/
+/* backgrond */
 .main-layout__sidenav__content {
   background-color: #d9ead3;
 }
 /*================================*/
 
-/*відключення дефолтного лічильника*/
+/* відключення дефолтного лічильника */
 lgt-dispatch-stats-bar.display-flex.m-t-2.m-b-6 {
   display: none;
 }
 /*================================*/
 
-/*HEADER*/
+/* HEADER */
 div.d-flex.justify-content-between.m-b-2 {
   position: sticky;
   top: 0px;
@@ -28,7 +28,7 @@ div.d-flex.justify-content-between.m-b-2 {
 }
 /*================================*/
 
-/*LOADS COUNTER*/
+/* LOADS COUNTER */
 .loads-counter {
   display: flex;
 }

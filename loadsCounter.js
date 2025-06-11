@@ -1,9 +1,6 @@
 "use strict";
 
-// ==UserScript==
-// @name         NEW TEST COUNTER
-// @version      2.0
-// @match        https://erp.gologity.com/freight-watch/dispatch
+const counters = {};
 
 function pageLoadCheck() {
   const loadListAvailible = document.querySelector("tr.ng-star-inserted");
@@ -11,8 +8,6 @@ function pageLoadCheck() {
     return true;
   }
 }
-
-const counters = {};
 
 function createLoadsCounter() {
   const container = document.querySelector(".m-b-2");
