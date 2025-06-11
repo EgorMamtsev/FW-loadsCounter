@@ -86,7 +86,7 @@ function countInTransit() {
 
 function countTotal() {
   const trElements = document.querySelectorAll("tr");
-  const totalCount = trElements.length - 1; // якщо перший рядок - заголовок
+  const totalCount = trElements.length - 1;
   counters.total.countEl.textContent = totalCount;
   return totalCount;
 }

@@ -31,7 +31,6 @@ div.d-flex.justify-content-between.m-b-2 {
 /*LOADS COUNTER*/
 .loads-counter {
   display: flex;
-  margin: 0 0px 0 0;
 }
 .loads-counter__item--need-to-check .loads-counter__count {
   color: #959393;
@@ -57,7 +56,6 @@ div.d-flex.justify-content-between.m-b-2 {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 10px;
 }
 
 .loads-counter__label {
